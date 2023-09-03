@@ -1,0 +1,109 @@
+:root {
+
+    --primary: hsla(0, 0%, 0%,0.85);
+    --secandary: hsla(0, 0%, 26%,0.4);
+}
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.hero-section {
+    height: 700px;
+    display: grid;
+    background: linear-gradient(180deg,var(--primary),var(--secandary))
+                ,url("MainBackground.jpg") no-repeat center center / cover;
+}
+
+.navbar {
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background-image: url('logo.png');
+    background-size: cover;
+    height: 80px;
+    width: 180px;
+    margin-left: 150px;
+}
+
+.nav-signin {
+    height: 32px;
+    width: 77px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    margin-right: 150px;
+    border-radius: 2px;
+    margin-top: 38px;
+    border: none;
+    background-color: #E50914;
+}
+
+/**Main Section**/
+
+.main-section {
+    height: 500px;
+    background-color:transparent ;
+    align-items: center;
+   
+}
+
+.main-heading {
+    height: 50px;
+    margin-top: 100px;
+}
+
+.main-h1 {
+    color: white;
+    font-size: 50px;
+    height: 50px;
+    text-align: center ;
+}
+
+.main-p1{
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-p2{
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main-input {
+    height: 60px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.email-main{
+    width:500px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    border-color: wheat;
+    background-color: hsl(0, 0%, 0%,0.4);
+}
+
+.Get-main{
+    height: 60px;
+    width: 150px;
+    margin-left: 5px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background-color: #E50914;
+}
